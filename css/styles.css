@@ -115,8 +115,19 @@ ul {
   color: var(--title-colour);
 }
 
+.header-icon {
+  margin-right: 10px;
+  fill: var(--text-colour);
+}
+
 .header-contacts-link {
+  display: flex;
   color: var(--text-colour);
+}
+
+.header-contacts-link:hover .header-icon,
+.header-contacts-link:focus .header-icon {
+  fill: var(--dominant-colour);
 }
 
 .header-nav-link:hover,

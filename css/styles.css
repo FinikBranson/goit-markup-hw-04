@@ -226,7 +226,8 @@ ul {
   width: 270px;
   padding: 25px 100px;
   margin-bottom: 30px;
-  border: 1px solid greenyellow;
+  border-radius: 4px;
+  background: var(--button-filters-background);
 }
 
 .benefits-icon-item:not(:last-child) {
@@ -318,7 +319,19 @@ ul {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin-bottom: 16px;
   color: var(--text-colour);
+}
+
+.block-socials {
+  display: flex;
+  width: 206px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block-socials :not(:last-child) {
+  margin-right: 10px;
 }
 
 /* footer */

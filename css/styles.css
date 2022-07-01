@@ -160,12 +160,12 @@ ul {
 
 .hero.section {
   background-image: linear-gradient(to right, var(--gradient-colour), var(--gradient-colour)),
-    url(/images/hero-img.jpg);
+    url('../images/hero-img.jpg');
   background-repeat: no-repeat;
+  background-position: center;
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-position: center;
 }
 
 .hero-title {

@@ -7,6 +7,8 @@
   --dark-theme-logo: #000000;
   --button-filters-background: #f5f4fa;
   --portfolio-background: #e5e5e5;
+  --background-hero-colour: #c4c4c4;
+  --gradient-colour: rgba(47, 48, 58, 0.4);
 }
 /* reset */
 
@@ -153,7 +155,17 @@ ul {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background: #2f303a;
+  background: var(--background-hero-colour);
+}
+
+.hero.section {
+  background-image: linear-gradient(to right, var(--gradient-colour), var(--gradient-colour)),
+    url(/images/hero-img.jpg);
+  background-repeat: no-repeat;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
 }
 
 .hero-title {
@@ -204,6 +216,22 @@ ul {
 }
 
 /* benefits */
+
+.benefits-icon-list {
+  display: flex;
+  justify-content: center;
+}
+
+.benefits-icon-item {
+  width: 270px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  border: 1px solid greenyellow;
+}
+
+.benefits-icon-item:not(:last-child) {
+  margin-right: 30px;
+}
 
 .benefits-list.list {
   display: flex;

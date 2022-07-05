@@ -2,6 +2,7 @@
   --dominant-colour: #2196f3;
   --title-colour: #212121;
   --text-colour: #757575;
+  --icon-colour: #afb1b8;
   --translucent-contact-color: rgba(255, 255, 255, 0.6);
   --light-theme-logo: #ffffff;
   --dark-theme-logo: #000000;
@@ -312,9 +313,7 @@ ul {
 
 .block-socials {
   display: flex;
-  width: 206px;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
 }
 
 .block-socials :not(:last-child) {
@@ -327,7 +326,7 @@ ul {
   align-items: center;
   width: 44px;
   height: 44px;
-  fill: var(--text-colour);
+  fill: var(--icon-colour);
 }
 
 .block-socials-link:hover,
